@@ -19,6 +19,8 @@
   
   .videoResults {
     height: auto;
+    width: 100%;
+    padding-left: 10px;
   } 
   
   .eventHeading {
@@ -27,7 +29,14 @@
   
   .eventResults {
     height: auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 15px;
   } 
+
+  .eventResults:last-child {
+    border-bottom-style: none;
+  }
   
   .events {
     display: none;
@@ -37,6 +46,14 @@
     display: none;
   }
   
+  .videoResults:hover {
+    cursor: pointer;
+  }
+
+  .ticketButton:hover {
+    cursor: pointer;
+  }
+
   @media only screen and (max-width: 725px) {
   .container {
     display: block;
@@ -50,10 +67,6 @@
     text-align: center;
   }
 
-  .videoResults{
-    width: 100%;
-  }
-
   .events {
     width: 100%;
   }
@@ -63,15 +76,9 @@
   }
 
   .eventResults {
-    width: 100%;
     border-bottom-style: solid;
-    padding-left: 5px;
-    padding-bottom: 15px;
   }
 
-  .eventResults:last-child {
-    border-bottom-style: none;
-  }
   }
   
   @media only screen and (min-width: 726px) and (max-width: 900px) {
@@ -85,24 +92,13 @@
     width: 300px;
   }
 
-  .videoResults {
-    width: 100%;
-  }
-
   .events {
     width: 300px;
   }
 
   .eventResults {
-    width: 100%;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-  }
-
-  .eventResults:last-child {
-    border-bottom-style: none;
   }
 
   #js-artist-search {
@@ -121,10 +117,6 @@
     width: 400px;
   }
 
-  .videoResults {
-    width: 100%;
-  }
-
   .events {
     width: 400px;
   }
@@ -132,12 +124,6 @@
   .eventResults {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-  }
-
-  .eventResults:last-child {
-    border-bottom-style: none;
   }
 
   #js-artist-search {
@@ -155,17 +141,13 @@
   #js-artist-search {
     width: 350px;
   }
+
   .header {
     font-size: 80px;
   }
+
   .eventResults {
-    //width: 100%;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-  }
-  .eventResults:last-child {
-    border-bottom-style: none;
   }
   }
