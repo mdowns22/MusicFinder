@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+  }
+  
+  #js-form {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .videoHeading {
+    background-color: gray;
+  }
+  
+  .videoResults {
+    height: auto;
+  } 
+  
+  .eventHeading {
+    background-color: gray;
+  }
+  
+  .eventResults {
+    height: auto;
+  } 
+  
+  .events {
+    display: none;
+  }
+  
+  .videos {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 725px) {
+  .container {
+    display: block;
+  }
+
+  .videos {
+    width: 100%;
+  }
+
+  .videoHeading {
+    text-align: center;
+  }
+
+  .videoResults{
+    width: 100%;
+  }
+
+  .events {
+    width: 100%;
+  }
+
+  .eventHeading {
+    text-align: center;
+  }
+
+  .eventResults {
+    width: 100%;
+    border-bottom-style: solid;
+    padding-left: 5px;
+    padding-bottom: 15px;
+  }
+
+  .eventResults:last-child {
+    border-bottom-style: none;
+  }
+  }
+  
+  @media only screen and (min-width: 726px) and (max-width: 900px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .videos {
+    width: 300px;
+  }
+
+  .videoResults {
+    width: 100%;
+  }
+
+  .events {
+    width: 300px;
+  }
+
+  .eventResults {
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+
+  .eventResults:last-child {
+    border-bottom-style: none;
+  }
+
+  #js-artist-search {
+    width: 250px;
+  }
+  }
+  
+  @media only screen and (max-width: 1600px) and (min-width: 901px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .videos {
+    width: 400px;
+  }
+
+  .videoResults {
+    width: 100%;
+  }
+
+  .events {
+    width: 400px;
+  }
+
+  .eventResults {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+
+  .eventResults:last-child {
+    border-bottom-style: none;
+  }
+
+  #js-artist-search {
+    width: 350px;
+  }
+  }
+  
+  @media only screen and (min-width: 1601px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }  
+
+  #js-artist-search {
+    width: 350px;
+  }
+  .header {
+    font-size: 80px;
+  }
+  .eventResults {
+    //width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+  .eventResults:last-child {
+    border-bottom-style: none;
+  }
+  }
