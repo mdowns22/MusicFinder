@@ -1,8 +1,8 @@
 'use strict';
 
 //Api keys and urls
-const youTubeApiKey = 'AIzaSyD3ktdkxK-ywwtz_WVXydUCuN7bqQTP-Eg';
-const ticketMasterApiKey = 'ff53iBiixVGbGEMApy6TagT9H3MTbGJQ';
+const youTubeApiKey = config.youTube;
+const ticketMasterApiKey = config.ticketMaster;
 const youTubeUrl = 'https://www.googleapis.com/youtube/v3/search';
 const ticketMasterUrl = 'https://app.ticketmaster.com/discovery/v2/events';
 const tmArtistUrl = 'https://app.ticketmaster.com/discovery/v2/attractions';

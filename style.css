@@ -146,6 +146,14 @@
     font-size: 80px;
   }
 
+  .videos {
+    width: 400px;
+  }
+
+  .events {
+    width: 500px;
+  }
+  
   .eventResults {
     border-bottom-style: solid;
     border-bottom-width: 1px;
