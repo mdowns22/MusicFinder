@@ -184,9 +184,8 @@ function getArtists(searchTerm, size=1) {
 
 function submitForm() {
   $('#js-form').submit(event => {
-  $('.videoResults').empty();
-  $('.eventResults').empty();
-  //$('.container').empty();
+  $('.videoResults').remove();
+  $('.eventResults').remove();
     event.preventDefault();
     let searchTerm = $('#js-artist-search').val();
     console.log('***userInput***',searchTerm);
